@@ -12,4 +12,3 @@ export async function listProducts(req: Request, res:Response) {
     res.sendStatus(500);
   }
 }
-
