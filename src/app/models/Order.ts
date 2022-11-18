@@ -8,7 +8,7 @@ export const Order = model('Order', new Schema({
   status: {
     type: String,
     enum: ['WAITING', 'IN_PRODUCTION', 'DONE'],
-    defaulT: 'WAITING',
+    default: 'WAITING',
   },
   createAt: {
     type: Date,
