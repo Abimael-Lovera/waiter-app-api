@@ -16,8 +16,6 @@ export async function createProduct(req: Request, res:Response) {
       ingredients: JSON.parse(ingredients),
     });
 
-
-
     res.status(201).json(product);
   } catch (error) {
     console.error(error);
